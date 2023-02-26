@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: amazon-tk
+spec:
+  containers:
+    - name: amazon-tk
+      image: trilokee/amazon-clone
